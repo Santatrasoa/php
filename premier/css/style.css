@@ -1,0 +1,95 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-width: 100vw;
+	min-height: 100vh;
+}
+
+.form {
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 250px;
+	height: 300px;
+	box-shadow: 0px 0px 10px black;
+	border-radius: 4px;
+}
+
+input {
+	margin: 10px;
+	height: 30px;
+	width: 200px;
+}
+
+label {
+	margin-left: 10px;
+}
+
+table,
+th,
+td {
+
+	border: 3px solid #000000;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 10px;
+}
+
+td {
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+th {
+	height: 40px;
+	background: #1F6BCA;
+}
+
+button {
+	width: 60px;
+	height: 20px;
+	background-color: transparent;
+	border: 1px solid black;
+	color: white;
+}
+
+.paire {
+	color: white;
+	background-color: green;
+}
+
+.impaire {
+	background-color: skyblue;
+	align-content: center;
+	justify-content: center;
+	color: black;
+}
+
+input[type='submit'] {
+	font-size: 20px;
+	border-color: blue;
+	border-radius: 2px;
+}
+
+input[type='number'] {
+	font-size: 20px;
+	border-color: skyblue;
+	padding-left: 10px;
+}
