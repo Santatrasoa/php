@@ -55,7 +55,6 @@
     <br><br>
     <br><br>
     <?php
-    session_unset();
     include("convertLong.php");
     if (isset($_SESSION['resultL']) && isset($_SESSION['unitL2'])) {
         echo "<div>
