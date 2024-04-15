@@ -53,7 +53,6 @@
     <br><br>
     <br><br>
     <?php
-    session_unset();
     include("convertT.php");
     if (isset($_SESSION['resultT']) && isset($_SESSION['unitT2'])) {
         echo "<div>
