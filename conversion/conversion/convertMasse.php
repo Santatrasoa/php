@@ -13,5 +13,5 @@
     $_SESSION["resultM"] = $result;
     $_SESSION["unitM2"] = $unit2;
 
-    header('location: /conversion/php/longueur.php');
+    header('location: /conversion/php/poid.php');
 ?>
