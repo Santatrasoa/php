@@ -13,5 +13,5 @@
     $_SESSION["resultT"] = $result;
     $_SESSION["unitT2"] = $unit2;
 
-    header('location: /conversion/php/longueur.php');
+    header('location: /conversion/php/temperature.php');
 ?>
