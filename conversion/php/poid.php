@@ -52,7 +52,6 @@
     <br><br>
     <br><br>
     <?php
-    session_unset();
     include("convertMasse.php");
     if (isset($_SESSION['resultM']) && isset($_SESSION['unitM2'])) {
         echo "<div>
